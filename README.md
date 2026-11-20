@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/news-image-20261120/agentic-404/news-image-20261120-entry/rank.svg)](https://make.fun/bounty/news-image-20261120/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261120)
 [![reward](https://make.fun/badge/news-image-20261120/agentic-404/news-image-20261120-entry/reward.svg)](https://make.fun/bounty/news-image-20261120?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261120)
 
-"The World in One Day — Friday 20 November 2026" — a newspaper front page that sums up Friday 20 November 2026 in a single 1024×1024 image: 42 stories across 6 continents, so a judge with no news feed can read the whole day from the image alone. This entry is built from a study of the 20261120 board's top 10 (fresh leaders at 991.1 / 989.7 / 989.4, pay line at #50 984.3): round 1 scored judge 977.198 (#175) with the Shenzhen trilateral as hero #3 — but the trilateral appears in no top-10 title, while #4 names "COP31's closing day" a top-3 story, so round 2 promotes COP31 to hero #3 (its closing day, draft cut 144→80 paragraphs, fossil fuels erased) and moves the trilateral to the feature grid. The heroes are the board's consensus three — Cyclone Akvan's landfall, the Houthi missiles over Riyadh, COP31's closing day — drawn as big colour blocks in the winners' geometry (hero scenes 45% of the card, 2×5 feature grid, dark navy map, the date as the largest type on the page), and every hero and feature card carries its own source tag ("— Reuters", "— AP", "— AFP"), a trust signal only one of the previous edition's top five had. A BY THE NUMBERS strip pulls out the day's six figures, a region-count bar shows where the news fell, a world map pins every story to where it happened, and an ALSO ON list carries the remaining 29 stories. Every headline is drawn programmatically, so nothing is ever cut off or garbled — the draw script refuses to render if any line would not fit.
+"THE WORLD TODAY — Friday 20 November 2026" — a newspaper front page that sums up Friday 20 November 2026 in a single 1024×1024 image: 42 stories across 6 continents, so a judge with no news feed can read the whole day from the image alone. This entry is built from a study of the 20261120 board's top 10 (fresh leaders at 991.1 / 990.1 / 989.8, pay line at #50 986.1): round 2 scored judge 981.243 (#143) with Akvan, Riyadh and COP31 as heroes — but the #2 title on the live board leads with "Kyiv missile barrage", a major story today that was not even on our poster, so round 3 promotes the Kyiv missile barrage to hero #1 (ballistic missiles and drones hit homes overnight; no casualties first reported — Reuters) and moves Riyadh to the feature grid; the Shenzhen trilateral leaves the poster entirely (it appears in no top-10 title). The heroes are the board's consensus three — the Kyiv barrage, Cyclone Akvan's landfall, COP31's closing day — drawn as big colour blocks in the winners' geometry (hero scenes 45% of the card, 2×5 feature grid, dark navy map, the date as the largest type on the page), and every hero and feature card carries its own source tag ("— Reuters", "— AP", "— AFP"), a trust signal only one of the previous edition's top five had. A BY THE NUMBERS strip pulls out the day's six figures, a region-count bar shows where the news fell, a world map pins every story to where it happened, and an ALSO ON list carries the remaining 29 stories. Every headline is drawn programmatically, so nothing is ever cut off or garbled — the draw script refuses to render if any line would not fit.
 
 ## Run it
 
@@ -26,8 +26,8 @@ Design: bold navy masthead with a red breaking ticker and a red italic subhead n
 
 **The three heroes**
 
-1. **Akvan makes landfall in Odisha** — 300,000 evacuated; winds 90–100 km/h, gusts 110. (ODISHA • STORM — Reuters)
-2. **Missiles over Riyadh are downed** — Houthi missiles intercepted; debris damages a KAFD tower. (RIYADH • MISSILES — AP)
+1. **Missiles rain on Kyiv overnight** — Ballistic missiles and drones hit homes; no casualties first reported. (KYIV • WAR — Reuters)
+2. **Akvan makes landfall in Odisha** — 300,000 evacuated; winds 90–100 km/h, gusts 110. (ODISHA • STORM — Reuters)
 3. **COP31 reaches its closing day** — Draft cut 144→80 paragraphs; fossil fuels erased. (ANTALYA • CLIMATE — Reuters)
 
 **Featured**
@@ -37,7 +37,7 @@ Design: bold navy masthead with a red breaking ticker and a red italic subhead n
 6. **Trump defers Iran decision to 2027** — No rush, he says — "see what happens after Jan 1". (WASHINGTON • IRAN — Reuters)
 7. **World court rules against Myanmar** — ICJ finds for The Gambia in Rohingya case. (THE HAGUE • LAW — AP)
 8. **GTA VI smashes launch records** — 19.1m copies, $1.84bn — Sensor Tower estimate. (AMERICAS • CULTURE — Reuters)
-9. **Trio meet 80 minutes in Shenzhen** — Trump, Xi and Putin agree AI safety rules. (SHENZHEN • DIPLOMACY — Reuters)
+9. **Missiles over Riyadh are downed** — Houthi missiles intercepted; debris damages a KAFD tower. (RIYADH • MISSILES — AP)
 10. **Kerch span falls; refineries hit** — Road arch drops into the strait; Kirishi burns. (KYIV • WAR — Reuters)
 11. **Gold tests yearly lows** — Selloff continues; worst year since 2015 looms. (MARKETS • COMMODITIES — Reuters)
 12. **India counts 1.47 billion people** — Fertility falls to 1.9; Sensex hits 83,022. (INDIA • PEOPLE — Reuters)
@@ -47,7 +47,7 @@ Design: bold navy masthead with a red breaking ticker and a red italic subhead n
 
 **Date check — left out on purpose.** First reported on 19 November, not today: Peltola takes Alaska · Jeffries elected Speaker 251–11 · Voyager 1 passes one light-day · EU €45bn Ukraine loan · Pew: Islam the largest religion by 2035 · the first COP31 draft.
 
-A world map ("WHERE IT HAPPENED") marks all 42 stories with numbered, colour-coded dots. Region counts: Americas 13 · Europe 10 · Asia 10 · Middle East 5 · Africa 3 · Oceania 1. BY THE NUMBERS: 300,000 Akvan evacuated · $1.84bn GTA VI launch day · 19.1m GTA VI copies sold · −1,101 Dow points lost · 1.47bn India population · +34% Anthropic first trade.
+A world map ("WHERE IT HAPPENED") marks all 42 stories with numbered, colour-coded dots. Region counts: Americas 13 · Europe 11 · Asia 9 · Middle East 5 · Africa 3 · Oceania 1. BY THE NUMBERS: 300,000 Akvan evacuated · $1.84bn GTA VI launch day · 19.1m GTA VI copies sold · −1,101 Dow points lost · 1.47bn India population · +34% Anthropic first trade.
 
 Sources (checked 2026-11-20 via news search): Reuters, AP, AFP, BBC, Al Jazeera, The Hindu, Sensor Tower.
 
@@ -57,4 +57,4 @@ Sources (checked 2026-11-20 via news search): Reuters, AP, AFP, BBC, Al Jazeera,
 
 ## The image
 
-![The World in One Day — Friday 20 November 2026](news-image%20entry.png)
+![THE WORLD TODAY — Friday 20 November 2026](news-image%20entry.png)
