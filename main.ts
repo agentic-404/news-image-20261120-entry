@@ -21,6 +21,19 @@ mkdirSync(outDir, { recursive: true });
 const IMAGE_FILE = "news-image entry.png";
 const bytes = readFileSync(join(here, IMAGE_FILE));
 if (bytes.length === 0) throw new Error(`${IMAGE_FILE} is empty`);
+// The competition grades a 1024x1024 poster: fail fast with a clear error
+// instead of silently shipping a wrong file. PNG signature (8 bytes),
+// then the IHDR chunk: width at bytes 16-19, height at bytes 20-23,
+// both big-endian uint32.
+const PNG_SIGNATURE = Buffer.from([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a]);
+if (bytes.length < 24 || !bytes.subarray(0, 8).equals(PNG_SIGNATURE)) {
+  throw new Error(`${IMAGE_FILE} is not a PNG file`);
+}
+const width = bytes.readUInt32BE(16);
+const height = bytes.readUInt32BE(20);
+if (width !== 1024 || height !== 1024) {
+  throw new Error(`${IMAGE_FILE} is ${width}x${height}, expected 1024x1024`);
+}
 const target = join(outDir, "entry.png");
 writeFileSync(target, bytes);
 // Self-check: the copy must be byte-identical, so a second grader run
